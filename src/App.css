@@ -28,6 +28,30 @@
   color: #61dafb;
 }
 
+.pairInputWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px 0 16px;
+}
+
+.pairInputWrapper input {
+  padding: 8px 4px;
+}
+
+.pairInputWrapper button {
+  margin-left: 12px;
+}
+
+.wrapper {
+  max-width: 500px;
+  margin: auto;
+}
+
+.wrapper table tr td {
+  padding: 4px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
